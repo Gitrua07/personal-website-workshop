@@ -2,8 +2,28 @@
     background: linear-gradient(-45deg, #070c46, #1a1a72, #0f0f2f, #2c2c8a);
     background-size: 400% 400%;   
     height: 100vh;
+    padding: 100px 10px;
+}
+
+.about{
+    display:flex;
+    gap: 50px;
+    justify-content: center;
 }
 
 .profile{
-    height: 200px;
+    height: 550px;
+}
+
+.about-text{
+    color: white;
+    max-width: 700px;
+}
+
+h1{
+    padding-bottom: 40px;
+}
+
+p{
+    font-size: 19px;
 }

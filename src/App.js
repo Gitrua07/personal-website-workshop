@@ -4,7 +4,7 @@ import NavigationBar from "./components/NavigationBar"
 import Home from "./components/Home"
 import Projects from "./components/Projects"
 import About from "./components/About"
-import Experience from "./components/Experience"
+import Experience from "./components/Contacts"
 import './App.css'; //Imports css file
 
 //HashRouter provides you a separate link per page
@@ -15,8 +15,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/about" element={<About />}/>
-        <Route path="/experience" element={<Experience />}/>
         <Route path="/projects" element={<Projects />}/>
+        <Route path="/contacts" element={<Experience />}/>
       </Routes>
     </Router>
   );

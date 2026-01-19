@@ -20,6 +20,12 @@ const Projects = () => {
             description: "A program that manages and outputs multiple scheduled trains.",
             tech: "C",
             link: "https://github.com/Gitrua07/auto-control-system-sim"
+        },
+        {
+            name: "Mood Tracker Application",
+            description: "A full-stack web application which tracks the user's daily moods.",
+            tech: "React, Tailwind CSS, Node.js, Express",
+            link: "https://github.com/Gitrua07/mood-app"
         }
     ];
 
